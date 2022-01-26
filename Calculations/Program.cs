@@ -7,14 +7,16 @@ Console.WriteLine("Введите цифру, что хотите сделать
 int sw = Convert.ToInt32(Console.ReadLine());
 switch (sw)
 {
-    //case 1:
-    //    Console.WriteLine(a - b);
-    //    break;
-    //case 2: Console.WriteLine(a + b);
-    //    break;
-    case 3:
-        Console.WriteLine(a * b);
+    case 1:
+        Console.WriteLine(a - b);
         break;
-        //case 4: Console.WriteLine(a / b);
+        //case 2:
+        //    Console.WriteLine(a + b);
+        //    break;
+        //case 3:
+        //    Console.WriteLine(a * b);
+        //    break;
+        //case 4:
+        //    Console.WriteLine(a / b);
         //    break;
 }
